@@ -21,9 +21,15 @@ namespace Dangl.AVA.Examples.Tests
 
         private static Stream GetResourceStreamByName(string filename)
         {
-            var resourcePath = $"Dangl.AVA.Examples.Tests.Resources.{filename}";
-            var resourceStream = typeof(TestFilesFactory).Assembly.GetManifestResourceStream(resourcePath);
-            return resourceStream;
+            var currentPath = Directory.GetCurrentDirectory();
+            var resourcePath = Path.Combine(currentPath, "Resources", filename);
+            var memStream = new MemoryStream();
+            using (var fileStream = File.OpenRead(resourcePath))
+            {
+                fileStream.CopyTo(memStream);
+            }
+            memStream.Position = 0;
+            return memStream;
         }
     }
 }

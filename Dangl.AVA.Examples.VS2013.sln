@@ -5,6 +5,17 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dangl.AVA.Examples.VS2013", "src\Dangl.AVA.Examples\Dangl.AVA.Examples.VS2013.csproj", "{2933F93C-3546-431F-BE8D-E2B4CDF32464}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C0965BF5-432B-457D-BC7D-58B8A695CE6F}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D3446075-A0AA-466E-A808-A307D60D9FAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D2889433-EBD6-4B02-BD56-A89BD0FB2B5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dangl.AVA.Examples.VS2013.Tests", "test\Dangl.AVA.Examples.Tests\Dangl.AVA.Examples.VS2013.Tests.csproj", "{DB995962-D0B7-4460-B218-1C04A336E06E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +26,16 @@ Global
 		{2933F93C-3546-431F-BE8D-E2B4CDF32464}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2933F93C-3546-431F-BE8D-E2B4CDF32464}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2933F93C-3546-431F-BE8D-E2B4CDF32464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB995962-D0B7-4460-B218-1C04A336E06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB995962-D0B7-4460-B218-1C04A336E06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB995962-D0B7-4460-B218-1C04A336E06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB995962-D0B7-4460-B218-1C04A336E06E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2933F93C-3546-431F-BE8D-E2B4CDF32464} = {D3446075-A0AA-466E-A808-A307D60D9FAE}
+		{DB995962-D0B7-4460-B218-1C04A336E06E} = {D2889433-EBD6-4B02-BD56-A89BD0FB2B5A}
 	EndGlobalSection
 EndGlobal
