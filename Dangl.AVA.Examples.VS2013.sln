@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dangl.AVA.Examples.VS2013", "src\Dangl.AVA.Examples\Dangl.AVA.Examples.VS2013.csproj", "{2933F93C-3546-431F-BE8D-E2B4CDF32464}"
 EndProject
@@ -15,6 +15,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D2889433-EBD6-4B02-BD56-A89BD0FB2B5A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dangl.AVA.Examples.VS2013.Tests", "test\Dangl.AVA.Examples.Tests\Dangl.AVA.Examples.VS2013.Tests.csproj", "{DB995962-D0B7-4460-B218-1C04A336E06E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5520ED89-00BC-42B4-87C8-FB0DE59C7E1B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
