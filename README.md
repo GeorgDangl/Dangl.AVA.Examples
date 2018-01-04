@@ -1,9 +1,13 @@
 # Dangl.AVA.Examples
 
-> An online version of the converter is freely accessible at [my blog](https://blog.dangl.me/gaeb-converter/)
+> An online version of the converter is freely accessible at [my blog](https://blog.dangl.me/gaeb-converter/).  
+> A more detailed feature description is available [on my website](https://www.dangl-it.com/products/gaeb-ava-net-library/).
+
+> This branch contains sample code with a **Visual Studio 2013** solution. Please switch to the master branch if you're on **Visual Studio 2017** or newer.
+> Please open the `Dangl.AVA.Examples.VS2013.sln` solution.
 
 This is a _demonstration_ library intended to show the usage of the Dangl.AVA and Dangl.GAEB projects.
-To build this solution, you need to copy four packages into the `./packages` folder, relative to the root of this project:
+To build this solution, you need to copy four packages into the `./NugetPackageSource` folder, relative to the root of this project:
 * Dangl.AVA
 * Dangl.GAEB
 * Dangl.AVA.Converter
