@@ -42,7 +42,7 @@ namespace Dangl.AVA.Examples
             var normalizedShortText = string.IsNullOrWhiteSpace(position.ShortText)
                 ? "Unnamed Position"
                 : System.Text.RegularExpressions.Regex.Replace(position.ShortText, "\r\n?|\n", string.Empty);
-            System.Console.WriteLine($"{itemNumber} - {normalizedShortText}");
+            System.Console.WriteLine(itemNumber + " - " + normalizedShortText);
         }
     }
 }

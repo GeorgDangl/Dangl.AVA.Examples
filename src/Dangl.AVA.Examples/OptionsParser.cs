@@ -17,7 +17,8 @@ namespace Dangl.AVA.Examples
         private void ParseOptions()
         {
             var parsedOptions = Parser.Default.ParseArguments<Options>(_commandLineArguments);
-            if (parsedOptions is Parsed<Options> parserResult)
+            var parserResult = parsedOptions as Parsed<Options>;
+            if (parserResult != null)
             {
                 IsValid = true;
                 Result = parserResult.Value;
