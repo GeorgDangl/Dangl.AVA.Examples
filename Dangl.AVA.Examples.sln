@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dangl.AVA.Examples", "src\Dangl.AVA.Examples\Dangl.AVA.Examples.csproj", "{F994C960-74FE-4D3D-95B3-121DFD213C5B}"
 EndProject
@@ -9,12 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{488A4086-855
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B9C04987-52D8-4954-A262-831AB8165CD6}"
 	ProjectSection(SolutionItems) = preProject
+		NuGet.Config = NuGet.Config
 		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{350B3AB5-03EC-4E3E-911F-CE43E07B82E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dangl.AVA.Examples.Tests", "test\Dangl.AVA.Examples.Tests\Dangl.AVA.Examples.Tests.csproj", "{94B38F95-8499-470C-A806-F94B6B0A268B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dangl.AVA.Examples.Tests", "test\Dangl.AVA.Examples.Tests\Dangl.AVA.Examples.Tests.csproj", "{94B38F95-8499-470C-A806-F94B6B0A268B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
